@@ -1,0 +1,13 @@
+{
+  "name": "xon/api-demos",
+  "type": "project",
+  "description": "X-on API Demos",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joshua Gigg",
+      "email": "joshua.gigg@x-on.co.uk"
+    }
+  ]
+}
