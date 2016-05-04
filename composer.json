@@ -9,5 +9,8 @@
       "name": "Joshua Gigg",
       "email": "joshua.gigg@x-on.co.uk"
     }
-  ]
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.2"
+  }
 }
