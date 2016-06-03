@@ -4,6 +4,8 @@
  *
  * @url https://platform.x-onweb.com/#clicktocall
  */
+
+// Load Composer's autoloader - make sure you have installed the dependencies using Composer
 require __DIR__ . '/../vendor/autoload.php';
 
 /**
