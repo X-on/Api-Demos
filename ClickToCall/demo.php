@@ -28,7 +28,7 @@ $destinationPhoneNumber = '0333 332 0000';
  * @todo Update $target with the user or group you want the call to target
  * This can be found in the [Configuration Console](https://config.x-onweb.com)
  */
-$target = 'U0050';
+$target = 'U0001';
 
 $guzzle = new GuzzleHttp\Client(['base_uri' => 'https://platform.x-onweb.com/api/v1/']);
 
