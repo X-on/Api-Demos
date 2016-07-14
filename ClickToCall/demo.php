@@ -55,8 +55,7 @@ $decodedBody = json_decode($body, true);
 /*
  * Retrieve the call details
  *
- * **Note**: This will only work once the call has completed. If this gets called before the call has finished, it will
- * currently return a 404. This may be something that gets changed in the future.
+ * **Note**: If you call this next request before the call has finished, it will error and return a HTTP 409.
  */
 
 $callId = $decodedBody['callId'];
